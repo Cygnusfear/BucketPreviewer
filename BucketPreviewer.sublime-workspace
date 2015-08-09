@@ -1,0 +1,1644 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"gallery",
+				"galleryItems"
+			],
+			[
+				"gale",
+				"galleryItems"
+			],
+			[
+				"galler",
+				"galleryItems"
+			],
+			[
+				"SharedVaria",
+				"SharedVariableTypes"
+			],
+			[
+				"Shared",
+				"SharedVariableTypes"
+			],
+			[
+				"Share",
+				"SharedVariableTypes"
+			],
+			[
+				"retur",
+				"returnTypeC"
+			],
+			[
+				"return",
+				"returnTypeB"
+			],
+			[
+				"returnTy",
+				"returnTypeC"
+			],
+			[
+				"Shad",
+				"SharedVariableTypes"
+			],
+			[
+				"work",
+				"workedby"
+			],
+			[
+				"GetCompo",
+				"GetComponentsInChildren	type"
+			],
+			[
+				"burn",
+				"burnLight"
+			],
+			[
+				"foll",
+				"follower"
+			],
+			[
+				"active",
+				"activeitem"
+			],
+			[
+				"cI",
+				"cInventoryitem"
+			],
+			[
+				"noise",
+				"noiseTexture"
+			],
+			[
+				"GetT",
+				"GetTexture	propertyName"
+			],
+			[
+				"nei",
+				"neighbours"
+			],
+			[
+				"ne",
+				"Neighbours"
+			],
+			[
+				"Cal",
+				"CalculateTangents"
+			],
+			[
+				"biom",
+				"biomeType"
+			],
+			[
+				"biome",
+				"biomeTypes"
+			],
+			[
+				"Biome",
+				"BiomeType"
+			],
+			[
+				"curre",
+				"currentCycleTime"
+			],
+			[
+				"simo",
+				"simObjectOrigin"
+			],
+			[
+				"Equip",
+				"EquipSlot"
+			],
+			[
+				"placeme",
+				"placementMode"
+			],
+			[
+				"simob",
+				"simObjectOrigin"
+			],
+			[
+				"simOb",
+				"simObjectOrigin"
+			],
+			[
+				"Getcomp",
+				"GetComponentInChildren	type"
+			],
+			[
+				"random",
+				"randomPosition"
+			],
+			[
+				"ac",
+				"actionType"
+			],
+			[
+				"acti",
+				"activeitem"
+			],
+			[
+				"Container",
+				"ContainerDisplay"
+			],
+			[
+				"is",
+				"isCurrentPlayer"
+			],
+			[
+				"act",
+				"activeitem"
+			],
+			[
+				"SetAc",
+				"SetActiveItem"
+			],
+			[
+				"cIn",
+				"cInventory"
+			],
+			[
+				"slot",
+				"slot"
+			],
+			[
+				"Network",
+				"NetworkPlayer"
+			],
+			[
+				"target",
+				"targetPosition"
+			],
+			[
+				"GetEquipp",
+				"GetEquippedItemActions"
+			],
+			[
+				"curr",
+				"currentObject"
+			],
+			[
+				"Netw",
+				"NetworkViewID"
+			],
+			[
+				"Net",
+				"NetworkPlayer"
+			],
+			[
+				"compo",
+				"component"
+			],
+			[
+				"con",
+				"cContainer"
+			],
+			[
+				"Vec",
+				"Vector3	x, y, z"
+			],
+			[
+				"cInventory",
+				"cInventoryitem"
+			],
+			[
+				"itemsl",
+				"itemslots"
+			],
+			[
+				"eq",
+				"equipslots"
+			],
+			[
+				"cInven",
+				"cInventoryitem"
+			],
+			[
+				"openc",
+				"opencontainers"
+			],
+			[
+				"food",
+				"foodStack"
+			],
+			[
+				"Sim",
+				"SimComponent"
+			],
+			[
+				"workle",
+				"workleft"
+			],
+			[
+				"SimpleC",
+				"SimpleConsole"
+			],
+			[
+				"GetCom",
+				"GetComponents	type"
+			],
+			[
+				"euipp",
+				"equippedHand"
+			],
+			[
+				"equi",
+				"equippedHand"
+			],
+			[
+				"sloT",
+				"slotType"
+			],
+			[
+				"e",
+				"equippedItem"
+			],
+			[
+				"itemt",
+				"itemType"
+			],
+			[
+				"stack",
+				"stackMax"
+			],
+			[
+				"Spawn",
+				"SpawnItem"
+			],
+			[
+				"Cotnainer",
+				"ContainerSlot"
+			],
+			[
+				"simO",
+				"simObjectOrigin"
+			],
+			[
+				"sim",
+				"simObject"
+			],
+			[
+				"object",
+				"objectInHand"
+			],
+			[
+				"_pare",
+				"_parentObject"
+			],
+			[
+				"Getv",
+				"GetAvailableSlot"
+			],
+			[
+				"simObj",
+				"simObject"
+			],
+			[
+				"hand",
+				"handSlot"
+			],
+			[
+				"Contain",
+				"ContainerSlot"
+			],
+			[
+				"simObjec",
+				"simObjectOrigin"
+			],
+			[
+				"avail",
+				"availableSlot"
+			],
+			[
+				"sp",
+				"sprite2D"
+			],
+			[
+				"new",
+				"newObject"
+			],
+			[
+				"stac",
+				"stackSize"
+			],
+			[
+				"contain",
+				"containerObject"
+			],
+			[
+				"Tran",
+				"Transform"
+			],
+			[
+				"objects",
+				"objectsInHand"
+			],
+			[
+				"obj",
+				"objectsInHand"
+			],
+			[
+				"Create",
+				"CreateHUD"
+			],
+			[
+				"the",
+				"theThingToBeSaid"
+			],
+			[
+				"GetComponent",
+				"GetComponentInChildren	type"
+			],
+			[
+				"exa",
+				"examinationResponses"
+			],
+			[
+				"Allocate",
+				"AllocateViewID"
+			],
+			[
+				"Netwo",
+				"NetworkPlayer"
+			],
+			[
+				"Networkview",
+				"NetworkViewID"
+			],
+			[
+				"Charac",
+				"CharacterRenderer"
+			],
+			[
+				"networ",
+				"networkPlayer"
+			],
+			[
+				"pla",
+				"playerName"
+			],
+			[
+				"gameO",
+				"gameObject"
+			],
+			[
+				"netwo",
+				"networkPlayer"
+			],
+			[
+				"saved",
+				"savedSettings"
+			],
+			[
+				"SimObjec",
+				"SimObjectComponent"
+			],
+			[
+				"Vect",
+				"Vector3	x, y, z"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"image",
+				"imageBounds"
+			],
+			[
+				"map",
+				"mapOptions"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"order",
+				"orderString"
+			],
+			[
+				"playlist",
+				"playlist"
+			],
+			[
+				"play",
+				"playlist"
+			],
+			[
+				"url",
+				"urlParams"
+			],
+			[
+				"all",
+				"allowUpdate"
+			],
+			[
+				"reso",
+				"resolutionList"
+			],
+			[
+				"gameo",
+				"gameObject"
+			],
+			[
+				"aler",
+				"alertPrefab"
+			],
+			[
+				"move",
+				"moveGUI"
+			],
+			[
+				"pl",
+				"Play()	Boolean"
+			],
+			[
+				"m",
+				"main	Camera"
+			],
+			[
+				"intro",
+				"introLogo"
+			],
+			[
+				"iss",
+				"isSpy	Boolean"
+			],
+			[
+				"tex",
+				"textLabel"
+			],
+			[
+				"moneyt",
+				"moneyTimer"
+			],
+			[
+				"chara",
+				"character"
+			],
+			[
+				"set",
+				"SetValue(Single, Single, Boolean)	Void"
+			],
+			[
+				"defa",
+				"defaultColor"
+			],
+			[
+				"bribed",
+				"bribedOffColor	Color"
+			],
+			[
+				"retu",
+				"returnColor"
+			],
+			[
+				"moveme",
+				"movementSpeed"
+			],
+			[
+				"_",
+				"_Color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "BucketPreviewer/Assets/Scripts/LoadTexture.cs",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "BucketPreviewer/Assets/Scripts/Browser.cs",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"glsl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"isnt",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"folding",
+				"Code Folding: Unfold All"
+			],
+			[
+				"font",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"the",
+				"Themr: Default"
+			],
+			[
+				"defa",
+				"Themr: Default"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Alexander/Development/BucketPreviewer/BucketPreviewer"
+	],
+	"file_history":
+	[
+		"/Users/Alexander/Downloads/duelyst",
+		"/Users/Alexander/Sites/anchor/themes/mankind/article.php",
+		"/Users/Alexander/Sites/anchor/themes/mankind/css/mankind.css",
+		"/Users/Alexander/Sites/anchor/themes/mankind/posts.php",
+		"/Users/Alexander/Development/Mankind/Website/index.html",
+		"/Users/Alexander/Sites/anchor/themes/mankind/js/mankind.js",
+		"/Users/Alexander/Sites/kirby/readme.md",
+		"/Users/Alexander/Sites/anchor/themes/mankind/footer.php",
+		"/Users/Alexander/Sites/anchor/themes/mankind/header.php",
+		"/Users/Alexander/Sites/anchor/themes/mankind/home.php",
+		"/Users/Alexander/Development/Mankind/Website/proxy.php",
+		"/Users/Alexander/Development/Mankind/Website/js/mankind.js",
+		"/private/etc/hosts",
+		"/Users/Alexander/Sites/grav/README.md",
+		"/Users/Alexander/Sites/grav/user/pages/01.home/modular.md",
+		"/Users/Alexander/Sites/grav/user/pages/01.home/_about/about.md",
+		"/Users/Alexander/Sites/anchor/index.php",
+		"/Users/Alexander/Sites/pico/README.md",
+		"/Volumes/Basil/Dropbox/Development/Mankind-Binaries/Models/Biome_Decorations.fbx.meta",
+		"/Users/Alexander/Development/Mankind/Website/css/mankind.css",
+		"/Users/Alexander/Development/Mankind/Project/Assets/Scripts/Core/GameSim.cs",
+		"/Users/Alexander/Development/Mankind/Website/index.php",
+		"/Users/Alexander/Development/Mankind/Website/sftp-config.json",
+		"/Users/Alexander/Development/Mankind/Website/js/grayscale.js",
+		"/Users/Alexander/Development/Mankind/Website/fonts/glyphicons-halflings-regular.svg",
+		"/Users/Alexander/Development/Mankind/Website/css/grayscale.css",
+		"/Users/Alexander/Development/Mankind/Website/font-awesome/fonts/FontAwesome.otf",
+		"/Users/Alexander/Development/Mankind/Website/font-awesome/less/mixins.less",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/_data 2.xml",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/header.php",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/data.xml",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/data 3.xml",
+		"/Users/Alexander/Development/Mankind/Website/wp-content/themes/att-writer/footer.php",
+		"/Users/Alexander/Dev/Givvia/angular/www/js/services.js",
+		"/Users/Alexander/Dev/Givvia/angular/www/js/controllers.js",
+		"/Users/Alexander/Development/Mankind/Website/wp-content/themes/att-writer/js/responsive.js",
+		"/Users/Alexander/Development/Mankind/Website/wp-content/themes/att-writer/header.php",
+		"/Users/Alexander/Development/Mankind/Project/Assets/Scripts/Events/Events.cs",
+		"/Users/Alexander/Development/Mankind/Website/wp-content/themes/att-writer/js/gallery.js",
+		"/Users/Alexander/Development/Mankind/Website/wp-content/themes/att-writer/style.css",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/Conditionals/WaitForEvent.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Variables/SharedSimObject.cs",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/att-writer/style.css",
+		"/Volumes/Wash/Maandag/Website/wp-includes/shortcodes.php",
+		"/Volumes/Wash/Maandag/Website/wp-includes/js/swfupload/handlers.js",
+		"/Volumes/Wash/Maandag/Website/wp-includes/js/tinymce/skins/lightgray/fonts/readme.md",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/data 2.xml",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/_data.xml",
+		"/Volumes/Wash/Maandag/Website/wp-includes/theme-compat/footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-includes/formatting.php",
+		"/Volumes/Wash/Maandag/Website/wp-admin/freedoms.php",
+		"/Volumes/Wash/Maandag/Website/wp-includes/http.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/plugins/hello.php",
+		"/Volumes/Wash/Maandag/Website/wp-includes/js/heartbeat.js",
+		"/Volumes/Wash/Maandag/Website/wp-includes/theme-compat/header.php",
+		"/Volumes/Wash/Maandag/Website/wp-admin/network/site-themes.php",
+		"/Volumes/Wash/Maandag/Website/wp-settings.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/twentyfourteen/sidebar-footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-admin/admin-footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/twentytwelve/footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/twentythirteen/footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/twentyfourteen/footer.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/att-writer/footer.php",
+		"/Volumes/Wash/Maandag/Website/index.html",
+		"/Volumes/Wash/Maandag/Website/index.php",
+		"/Volumes/Wash/Maandag/Website/kunstencieel.css",
+		"/Users/Alexander/Library/Application Support/Steam/SteamApps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/components/bigfooter.lua",
+		"/Volumes/Wash/Maandag/Project/Assets/Sounds/Footsteps/Footstep.wav",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Components/cFollower.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Floor.cs",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/wp-config.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/att-writer/header.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/att-writer/page.php",
+		"/Volumes/Wash/Maandag/Website/wp-content/themes/att-writer/index.php",
+		"/private/var/folders/w_/lmzbtzs520l4mblc41hnnjcm0000gn/T/fz3temp-1/wp-config 2.php",
+		"/Volumes/Wash/Maandag/Project/Assets/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseAndGrainDX11.shader",
+		"/Users/Alexander/Library/Application Support/Steam/SteamApps/common/dont_starve/dontstarve_steam.app/Contents/data/scripts/modindex.lua",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/LibNoise/Generator/Cylinders.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/SimObject/InvSlot.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/Conditionals/IsFollower.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/WorldGen/WorldGenerator.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/Behavior.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/BehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/SimObject/SimObject.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Network/Commands.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Core/Callback.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Components/cInventory.cs",
+		"/Users/Alexander/Dev/TestMaandag/Assets/Scripts/Components/cTalker.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Core/Messenger.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/oPalmTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/oAnimal.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/Variables/SharedVariable.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/MoveTowards.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/Actions/MoveTowardsPosition.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/GUI/Crafting.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/GUI/Inventory.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/AstarPathfindingProject/Core/Misc/BinaryHeap.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/Actions/ExternalBehavior.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/IBehavior.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/Conditionals/HasTag.cs",
+		"/Users/Alexander/Library/Application Support/Steam/SteamApps/common/dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/basehasslers.lua",
+		"/Volumes/Wash/Maandag/Project/Assets/Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/BlurEffectConeTaps.shader",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Actions/ExternalBehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Editor/ExternalBehaviorTreeInspector.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/ExternalBehavior.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Actions/RestartBehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/ExternalBehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Actions/StartBehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/SimObject/ObjectBehaviour.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Actions/StopBehaviorTree.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/Actions/BehaviorReference.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Actions/BehaviorTreeReference.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/BehaviorSource.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/BehaviorManager.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Editor/BehaviorTreeInspector.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Plugins/Behavior Designer/Runtime/MiniJSON.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Behavior Designer/Runtime/Variables/SharedGameObject.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Components/SimComponent.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Standard Assets/Image Effects (Pro Only)/ScreenOverlay.js",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/Marmoset/Documentation/Scripting.txt",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/Behaviours/Conditionals/IsBeingAttacked.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Scripts/WorldGen/Biome.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/HOTween/HOTween.XML",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/HOTween/Editor/HOTweenV1_Editor.dll.mdb",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/AstarPathfindingProject/Core/Serialization/JsonSerializer.cs",
+		"/Volumes/Wash/Maandag/Project/Assets/Third-Party/AstarPathfindingProject/Core/Serialization/JsonConverters.cs"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"<open folders>,<open files>",
+			"",
+			"E:\\PathosMaster\\Assets\\Scripts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"max-height",
+			"block",
+			"expanded",
+			"auto",
+			"height",
+			"all",
+			"addClass",
+			"</sc",
+			"src=\"",
+			"js",
+			"img/screenshots",
+			"Screenshots",
+			"3",
+			"9",
+			";\n",
+			"width",
+			"0.6",
+			"95",
+			"stop",
+			"stsop",
+			"FFF",
+			"indefinite",
+			"fire",
+			"about",
+			"o",
+			"download",
+			"Download",
+			"download",
+			"About",
+			"about",
+			"http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg",
+			"10px",
+			"5px",
+			"2px",
+			"fff",
+			"screenshot",
+			"amount",
+			"0",
+			"255",
+			"</span>",
+			"92",
+			"<p>",
+			"PLEDGED",
+			"supporters",
+			"div",
+			"'",
+			"password",
+			"2x\"",
+			"fa-fw",
+			"facebook",
+			".5",
+			"nav-coll",
+			"title",
+			"2",
+			"font-weight",
+			"Montserrat",
+			"-1",
+			"Mankind",
+			"eye",
+			"big",
+			"record",
+			"cl",
+			"1.99",
+			"TBA",
+			"gamesite",
+			"To be decided",
+			"combat",
+			"olivertwist",
+			"Freelancer",
+			"vlambeer",
+			"MyCompanyName",
+			"alexandermangel",
+			"company",
+			"Metropolisland",
+			"Cityville",
+			"website",
+			"fadeOut",
+			"slideToggle",
+			"000",
+			"pointer",
+			"240",
+			"click",
+			"Click",
+			"Previous",
+			"wrap",
+			"\"",
+			"leftbutton",
+			"gallery.",
+			"SetBackground",
+			"script",
+			"pathosgame",
+			"relative",
+			"230",
+			"pathosgame",
+			"menu-bar",
+			"000",
+			"url(",
+			"css",
+			"password_here",
+			"username_here",
+			"bottom",
+			"255",
+			"DeserializeSharedVariable",
+			"SharedVariable",
+			"SharedGameObject",
+			"typeB",
+			"typeA",
+			"returnType",
+			"ListenForEvent(\"Get",
+			"method",
+			"Action",
+			"constructed",
+			"instance",
+			"typeArgs",
+			"T",
+			"returnType",
+			"generic",
+			"MyClass",
+			"int",
+			"Vector2",
+			"string",
+			"EventReturnTypes",
+			"SharedVariableTypes",
+			"int",
+			"Int",
+			"int",
+			"Int",
+			"EventReturnTypes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"simObject.PushEvent(\"GetItem\", object[]{item});",
+			"simObject.PushEvent(\"GetItem\", item);",
+			"WorldGen",
+			"]]",
+			"|",
+			":",
+			".",
+			"",
+			".",
+			"",
+			"i",
+			" ",
+			"file://localhost/Volumes/Spool/FastNacht/",
+			"",
+			"PathosXml.Document().Category",
+			"target",
+			"Scope",
+			"augment",
+			"inSight",
+			"inRange",
+			"storedPath",
+			"_selectedAction",
+			"_character",
+			"Actions.Action",
+			"_nextAction"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Alexander/Development/BucketPreviewer/BucketPreviewer"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "BucketPreviewer/Assets/Scripts/LoadTexture.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "BucketPreviewer/Assets/Scripts/Browser.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 275.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 108.0
+	},
+	"output.variable_get":
+	{
+		"height": 187.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prox",
+				"proxy.php"
+			],
+			[
+				"mankin",
+				"js/mankind.js"
+			],
+			[
+				"gra",
+				"js/grayscale.js"
+			],
+			[
+				"mank",
+				"css/mankind.css"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"foot",
+				"wp-content/themes/att-writer/footer.php"
+			],
+			[
+				"styl",
+				"wp-content/themes/att-writer/style.css"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"behav",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/Behavior.cs"
+			],
+			[
+				"behavio",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/Behavior.cs"
+			],
+			[
+				"sharedgame",
+				"Project/Assets/Behavior Designer/Runtime/Variables/SharedGameObject.cs"
+			],
+			[
+				"sharedsim",
+				"Project/Assets/Behavior Designer/Runtime/Variables/SharedSimObject.cs"
+			],
+			[
+				"sharedga",
+				"Project/Assets/Behavior Designer/Runtime/Variables/SharedGameObject.cs"
+			],
+			[
+				"behavior",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/BehaviorSource.cs"
+			],
+			[
+				"ibeha",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/IBehavior.cs"
+			],
+			[
+				"json",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/MiniJSON.cs"
+			],
+			[
+				"comm",
+				"Project/Assets/Scripts/Network/Commands.cs"
+			],
+			[
+				"call",
+				"Project/Assets/Scripts/Core/Callback.cs"
+			],
+			[
+				"sharedvar",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/Variables/SharedVariable.cs"
+			],
+			[
+				"event",
+				"Project/Assets/Scripts/Events/EventManager.cs"
+			],
+			[
+				"ccon",
+				"Project/Assets/Scripts/Components/cContainer.cs"
+			],
+			[
+				"craft",
+				"Project/Assets/Scripts/GUI/Crafting.cs"
+			],
+			[
+				"inven",
+				"Project/Assets/Scripts/GUI/Inventory.cs"
+			],
+			[
+				"cin",
+				"Project/Assets/Scripts/Components/cInventory.cs"
+			],
+			[
+				"simo",
+				"Project/Assets/Scripts/SimObject/SimObject.cs"
+			],
+			[
+				"sharedsimo",
+				"Project/Assets/Behavior Designer/Runtime/Variables/SharedSimObject.cs"
+			],
+			[
+				"sharedva",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/Variables/SharedVariable.cs"
+			],
+			[
+				"cconta",
+				"Project/Assets/Scripts/Components/cContainer.cs"
+			],
+			[
+				"ccom",
+				"Project/Assets/Scripts/Components/cCombat.cs"
+			],
+			[
+				"tag",
+				"Project/Assets/Scripts/Core/Tags.cs"
+			],
+			[
+				"is",
+				"Project/Assets/Scripts/Behaviours/Conditionals/IsFollower.cs"
+			],
+			[
+				"moto",
+				"Project/Assets/Scripts/Behaviours/Actions/MoveTowardsPosition.cs"
+			],
+			[
+				"pickra",
+				"Project/Assets/Scripts/Behaviours/Actions/PickRandomValue.cs"
+			],
+			[
+				"pickr",
+				"Project/Assets/Scripts/Behaviours/Actions/PickRandomPosition.cs"
+			],
+			[
+				"move",
+				"Project/Assets/Scripts/Behaviours/Actions/MoveTowards.cs"
+			],
+			[
+				"sharedvari",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/Variables/SharedVariable.cs"
+			],
+			[
+				"sharedtr",
+				"Project/Assets/Behavior Designer/Runtime/Variables/SharedTransform.cs"
+			],
+			[
+				"messen",
+				"Project/Assets/Scripts/Core/Messenger.cs"
+			],
+			[
+				"action",
+				"Project/Assets/Scripts/Action/Action.cs"
+			],
+			[
+				"behaviors",
+				"Project/Assets/Plugins/Behavior Designer/Runtime/BehaviorSource.cs"
+			],
+			[
+				"rand",
+				"Project/Assets/Scripts/Behaviours/PickRandomValue.cs"
+			],
+			[
+				"water",
+				"Project/Assets/Shaders/Water Projection Alpha.shader"
+			],
+			[
+				"uicam",
+				"Project/Assets/Third-Party/NGUI/Scripts/UI/UICamera.cs"
+			],
+			[
+				"item",
+				"Project/Assets/Scripts/SimObject/ItemSlot.cs"
+			],
+			[
+				"invs",
+				"Project/Assets/Scripts/SimObject/InvSlot.cs"
+			],
+			[
+				"mapti",
+				"Project/Assets/Scripts/WorldGen/MapTile.cs"
+			],
+			[
+				"playerin",
+				"Project/Assets/Scripts/Input/PlayerInput.cs"
+			],
+			[
+				"objectm",
+				"Project/Assets/Scripts/SimObject/ObjectMovement.cs"
+			],
+			[
+				"simobject",
+				"Project/Assets/Scripts/SimObject/SimObject.cs"
+			],
+			[
+				"objec",
+				"Project/Assets/Scripts/SimObject/ObjectData.cs"
+			],
+			[
+				"simcom",
+				"Project/Assets/Scripts/Components/SimComponent.cs"
+			],
+			[
+				"command",
+				"Project/Assets/Scripts/Network/Commands.cs"
+			],
+			[
+				"cbu",
+				"Project/Assets/Scripts/Components/cBurnable.cs"
+			],
+			[
+				"lootdr",
+				"dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/components/lootdropper.lua"
+			],
+			[
+				"otr",
+				"Project/Assets/Scripts/oPalmTree.cs"
+			],
+			[
+				"oloot",
+				"Project/Assets/Scripts/Components/cLootdropper.cs"
+			],
+			[
+				"oa",
+				"Project/Assets/Scripts/oAnimal.cs"
+			],
+			[
+				"objectmove",
+				"Project/Assets/Scripts/SimObject/ObjectMovement.cs"
+			],
+			[
+				"ach",
+				"Project/Assets/Scripts/Action/aChop.cs"
+			],
+			[
+				"chara",
+				"Project/Assets/Scripts/Character/Character.cs"
+			],
+			[
+				"cinsp",
+				"Project/Assets/Scripts/Components/cInspectable.cs"
+			],
+			[
+				"aloo",
+				"Project/Assets/Scripts/Action/aLookat.cs"
+			],
+			[
+				"look",
+				"Project/Assets/Third-Party/DayNight/Scripts/LookAt.js"
+			],
+			[
+				"inspec",
+				"Project/Assets/Scripts/Components/cInspectable.cs"
+			],
+			[
+				"ata",
+				"Project/Assets/Scripts/Action/aTake.cs"
+			],
+			[
+				"invtoryit",
+				"Project/Assets/Scripts/Components/cInventoryitem.cs"
+			],
+			[
+				"play",
+				"Project/Assets/Scripts/Input/PlayerInput.cs"
+			],
+			[
+				"contain",
+				"Project/Assets/Scripts/GUI/ContainerDisplay.cs"
+			],
+			[
+				"acrea",
+				"Project/Assets/Scripts/Action/aCreate.cs"
+			],
+			[
+				"mou",
+				"Project/Assets/Scripts/GUI/MouseTooltip.cs"
+			],
+			[
+				"apic",
+				"Project/Assets/Scripts/Action/aPickup.cs"
+			],
+			[
+				"ui2dspri",
+				"Project/Assets/Third-Party/NGUI/Scripts/UI/UI2DSprite.cs"
+			],
+			[
+				"obje",
+				"Project/Assets/Scripts/SimObject/ObjectData.cs"
+			],
+			[
+				"mouset",
+				"Project/Assets/Scripts/GUI/MouseTooltip.cs"
+			],
+			[
+				"asto",
+				"Project/Assets/Scripts/Action/aStore.cs"
+			],
+			[
+				"ast",
+				"Project/Assets/Scripts/Action/aStore.cs"
+			],
+			[
+				"cra",
+				"Project/Assets/Scripts/GUI/Crafting.cs"
+			],
+			[
+				"conta",
+				"Project/Assets/Scripts/Components/cContainer.cs"
+			],
+			[
+				"objecda",
+				"Project/Assets/Scripts/SimObject/ObjectData.cs"
+			],
+			[
+				"ceq",
+				"Project/Assets/Scripts/Components/cEquippable.cs"
+			],
+			[
+				"gamesi",
+				"Project/Assets/Scripts/Network/GameSim.cs"
+			],
+			[
+				"recipe",
+				"Project/Assets/Scripts/SimObject/Recipe.cs"
+			],
+			[
+				"simc",
+				"Project/Assets/Scripts/Components/SimComponent.cs"
+			],
+			[
+				"invento",
+				"Project/Assets/Scripts/Components/cInventoryitem.cs"
+			],
+			[
+				"crafting",
+				"Project/Assets/Scripts/GUI/CraftingSlot.cs"
+			],
+			[
+				"sim",
+				"Project/Assets/Scripts/SimObject/SimObject.cs"
+			],
+			[
+				"orab",
+				"Project/Assets/Scripts/oRabbit.cs"
+			],
+			[
+				"mess",
+				"Project/Assets/Scripts/Core/Messenger.cs"
+			],
+			[
+				"foll",
+				"Project/Assets/Scripts/Components/cFollower.cs"
+			],
+			[
+				"chea",
+				"Project/Assets/Scripts/Components/cHealth.cs"
+			],
+			[
+				"eater",
+				"Project/Assets/Scripts/Components/cEater.cs"
+			],
+			[
+				"lua",
+				"dont_starve/dontstarve_steam.app/Contents/data/scripts/components/follower.lua"
+			],
+			[
+				"within",
+				"Project/Assets/Scripts/Behaviours/WithinSight.cs"
+			],
+			[
+				"behaviorre",
+				"Project/Assets/Third-Party/Behavior Designer/Runtime/Actions/BehaviorTreeReference.cs"
+			],
+			[
+				"mo",
+				"Project/Assets/Scripts/Behaviours/MoveTowards.cs"
+			],
+			[
+				"moveto",
+				"Project/Assets/Scripts/Behaviours/MoveTowards.cs"
+			],
+			[
+				"monoso",
+				"Project/Assets/Scripts/Core/MonoSingleton.cs"
+			],
+			[
+				"t",
+				"Project/Assets/Scripts/Editor/TagDrawer.cs"
+			],
+			[
+				"wit",
+				"Project/Assets/Scripts/Behaviours/WithinSight.cs"
+			],
+			[
+				"tagdra",
+				"Project/Assets/Scripts/Editor/TagDrawer.cs"
+			],
+			[
+				"tagdr",
+				"Project/Assets/Scripts/Editor/TagDrawer.cs"
+			],
+			[
+				"gamesim",
+				"Project/Assets/Scripts/Network/GameSim.cs"
+			],
+			[
+				"game",
+				"Project/Assets/Scripts/Core/Game.cs"
+			],
+			[
+				"player",
+				"Project/Assets/Scripts/Network/Player.cs"
+			],
+			[
+				"leade",
+				"dont_starve/dontstarve_steam.app/Contents/data/DLC0001/scripts/components/leader.lua"
+			],
+			[
+				"randompo",
+				"Project/Assets/Scripts/Behaviours/PickRandomPosition.cs"
+			],
+			[
+				"aeq",
+				"Project/Assets/Scripts/Action/aEquip.cs"
+			],
+			[
+				"une",
+				"Project/Assets/Scripts/Action/aUnequip.cs"
+			],
+			[
+				"requ",
+				"Project/Assets/Scripts/Network/Requests.cs"
+			],
+			[
+				"inventoryitem",
+				"Project/Assets/Scripts/Components/cInventoryitem.cs"
+			],
+			[
+				"at",
+				"Project/Assets/Scripts/Action/aTake.cs"
+			],
+			[
+				"itemsl",
+				"Project/Assets/Scripts/SimObject/ItemSlot.cs"
+			],
+			[
+				"equips",
+				"Project/Assets/Scripts/SimObject/EquipSlot.cs"
+			],
+			[
+				"acu",
+				"Project/Assets/Scripts/Action/aUnequip.cs"
+			],
+			[
+				"equip",
+				"Project/Assets/Scripts/SimObject/EquipSlot.cs"
+			],
+			[
+				"cequi",
+				"Project/Assets/Scripts/Components/cEquippable.cs"
+			],
+			[
+				"cinv",
+				"Project/Assets/Scripts/Components/cInventory.cs"
+			],
+			[
+				"api",
+				"Project/Assets/Scripts/Action/aPickup.cs"
+			],
+			[
+				"acra",
+				"Project/Assets/Scripts/Action/aCreate.cs"
+			],
+			[
+				"spee",
+				"Project/Assets/Scripts/GUI/SpeechBubble.cs"
+			],
+			[
+				"speec",
+				"Project/Assets/Scripts/GUI/SpeechBubble.cs"
+			],
+			[
+				"cta",
+				"Project/Assets/Scripts/Components/cTalker.cs"
+			],
+			[
+				"biome",
+				"Project/Assets/Scripts/WorldGen/Biome.cs"
+			],
+			[
+				"cen",
+				"Project/Assets/Scripts/WorldGen/Center.cs"
+			],
+			[
+				"floo",
+				"Project/Assets/Scripts/Floor.cs"
+			],
+			[
+				"poly",
+				"Project/Assets/Scripts/WorldGen/Polygon.cs"
+			],
+			[
+				"worldm",
+				"Project/Assets/Scripts/WorldGen/WorldMap.cs"
+			],
+			[
+				"world",
+				"Project/Assets/Scripts/WorldGen/WorldGenerator.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"global",
+				"globals"
+			]
+		],
+		"width": 888.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 328.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
