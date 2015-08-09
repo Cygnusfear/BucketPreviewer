@@ -807,7 +807,12 @@ namespace SkywardRay.FileBrowser {
 				return;
 			}
 
-			outputMethod.Invoke(selectedEntries.Select(a => a.BrowserEntry.fileSystemEntry.path).ToArray());
+			Debug.Log(selectedEntries.Count);
+			Debug.Log(outputMethod);
+			var selected = selectedEntries.Where(a=> a.BrowserEntry != null).Select(a => a.BrowserEntry.fileSystemEntry.path).ToArray();
+			Debug.Log(selected);
+
+			outputMethod.Invoke(selected);
 
 			if (!selectedEntries.All(a => a.fileSystemEntry is SfbSavedLocationEntry)) {
 				savedLocations.AddRecentEntry(currentDirectory);

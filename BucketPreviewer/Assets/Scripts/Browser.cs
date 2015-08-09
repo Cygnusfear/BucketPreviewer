@@ -3,45 +3,61 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text.RegularExpressions;
 using SkywardRay.FileBrowser;
+using SkywardRay.FileBrowser.Example;
 using UnityEngine;
 using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 
-
+[RequireComponent(typeof(Browser))]
 public class Browser : MonoBehaviour {
 	public GameObject prefabBrowser;
 
 	private SkywardFileBrowser fileBrowser;
 	private string defaultPath = "/Users/";
-	private string[] extensions = { ".jpg", ".png", "" };
-	private Stopwatch restartTimer;
+	public string[] extensions = { ".jpg", ".png", "tiff" };
+	public string[] videoExtensions = { ".mov", ".avi"};
+
+	public FirstPersonController controller;
+
+	string[] AllExtensions()
+	{
+		var allExtensions = extensions.ToList();
+		allExtensions.AddRange(videoExtensions);
+		return allExtensions.ToArray();
+	}
 
 	private void Start () {
 		// Create the File Browser
 		fileBrowser = Instantiate(prefabBrowser).GetComponent<SkywardFileBrowser>();
 
-		// Change some settings
-		fileBrowser.Settings.ShowHiddenFiles = false;
+		fileBrowser.Settings.ShowHiddenFiles = true;
 
-		// There are multiple examples in the asset, so in order to give each file browser it's own settings file
 		fileBrowser.Settings.SettingsSaveFileName = "SfbOverlayExampleSettings";
 
 		// Open the File Browser
-		OpenFileBrowser(SfbMode.Open, defaultPath, Output, extensions);
+		Open();
 	}
 
 	private void Update () {
-		// Quit the demo by pressing escape
+		// Quit by pressing escape
 		if (Input.GetKeyDown(KeyCode.Escape)) {
 			Application.Quit();
 		}
-
-		// Restart the browser when it is closed, so we don't have to reopen the demo
-		ReOpenFileBrowser();
+		if (Input.GetKeyDown(KeyCode.O)) {
+			Open();
+		}
 	}
 
-	// Opens the File Browser in the specified mode
+	public void Open()
+	{
+		var allExtensions = extensions.ToList();
+		allExtensions.AddRange(videoExtensions);
+		OpenFileBrowser(SfbMode.Open, defaultPath, Output, AllExtensions());
+	}
+
 	private void OpenFileBrowser (SfbMode mode, string path, Action<string[]> outputCallback, string[] extensions = null) {
+		controller.enabled = false;
+		Cursor.visible = true;
 		if (mode == SfbMode.Save) {
 			fileBrowser.SaveFile(path, outputCallback, extensions);
 		}
@@ -50,27 +66,9 @@ public class Browser : MonoBehaviour {
 		}
 	}
 
-	private void ReOpenFileBrowser () {
-		// Don't start the timer when the file browser is still open
-		if (!fileBrowser.IsWindowOpen && restartTimer == null) {
-			restartTimer = Stopwatch.StartNew();
-		}
-		if (!fileBrowser.IsWindowOpen && restartTimer.ElapsedMilliseconds > 500) {
-			// Reopen the File Browser
-			var mode = fileBrowser.Mode;
-			var path = fileBrowser.GetCurrentDirectoryPath();
-			OpenFileBrowser(mode, path, Output, extensions);
-
-			restartTimer = null;
-		}
-	}
-
-	// The function recieving the output from the filebrowser
 	private void Output (string[] output) {
-		// Simply print the paths to show something happened. 
-		// Replace this with your own code to use the File Browser output
-		foreach (string path in output) {
-			Debug.Log("File browser output: " + path);
-		}
+		Cursor.visible = false;
+		controller.enabled = true;
+		GetComponent<LoadTexture>().Load(output);
 	}
 }

@@ -4,7 +4,42 @@ timeCreated: 1439122736
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Audience_Area
+    100002: Background
+    100004: Box2_Overview_Mockup_v001
+    100006: //RootNode
+    100008: Bucket
+    100010: Camera
+    100012: Camera_2
+    100014: Camera_3
+    100016: Camera_4
+    100018: Light
+    100020: Light_1
+    100022: Null
+    100024: Null_120
+    100026: Null_240
+    400000: Audience_Area
+    400002: Background
+    400004: Box2_Overview_Mockup_v001
+    400006: //RootNode
+    400008: Bucket
+    400010: Camera
+    400012: Camera_2
+    400014: Camera_3
+    400016: Camera_4
+    400018: Light
+    400020: Light_1
+    400022: Null
+    400024: Null_120
+    400026: Null_240
+    2300000: Audience_Area
+    2300002: Bucket
+    3300000: Audience_Area
+    3300002: Bucket
+    4300000: Audience_Area
+    4300002: Bucket
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -28,7 +63,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .00100000005
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
