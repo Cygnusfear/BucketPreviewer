@@ -18,11 +18,11 @@ public class LoadTexture : MonoBehaviour {
 		}
 	}
 
-
 	public void Load(string[] paths)
 	{
 		//check all paths
 
+		StopCoroutine("PlaySequence");
 		if (paths.Length > 1)
 		{
 			if (IsImage(paths[0]) && IsSequence(paths))
@@ -120,8 +120,9 @@ public class LoadTexture : MonoBehaviour {
 		{
 			WWW www = new WWW("file:///"+path);
 			yield return www;
+			www.texture.name = path;
 			sequence.Add(www.texture);
-			// Debug.Log(path + " loaded into memory");
+			Debug.Log(www.texture.name + " " + path + " loaded into memory");
 			// StartCoroutine(LoadTexture(path));
 			// Debug.Log("set " + path);
 			// yield return new WaitForSeconds(frameDuration);

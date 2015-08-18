@@ -34,6 +34,17 @@ public class Browser : MonoBehaviour {
 
 		fileBrowser.Settings.SettingsSaveFileName = "SfbOverlayExampleSettings";
 
+		#if UNITY_STANDALONE_OSX
+			defaultPath = "/Users/";
+		#endif
+
+		#if UNITY_EDITOR_OSX
+			defaultPath = "/Users/";
+		#endif
+
+		#if UNITY_STANDALONE_WIN
+			defaultPath = "/";
+		#endif
 		// Open the File Browser
 		Open();
 	}
@@ -69,6 +80,6 @@ public class Browser : MonoBehaviour {
 	private void Output (string[] output) {
 		Cursor.visible = false;
 		controller.enabled = true;
-		GetComponent<LoadTexture>().Load(output);
+		GetComponent<Loader>().Load(output);
 	}
 }
