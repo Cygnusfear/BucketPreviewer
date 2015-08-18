@@ -12,6 +12,8 @@ using Debug = UnityEngine.Debug;
 public class Browser : MonoBehaviour {
 	public GameObject prefabBrowser;
 
+	public Renderer rails;
+
 	private SkywardFileBrowser fileBrowser;
 	private string defaultPath = "/Users/";
 	public string[] extensions = { ".jpg", ".png", "tiff" };
@@ -56,6 +58,9 @@ public class Browser : MonoBehaviour {
 		}
 		if (Input.GetKeyDown(KeyCode.O)) {
 			Open();
+		}
+		if (Input.GetKeyDown(KeyCode.H)) {
+			rails.enabled = !rails.enabled;
 		}
 	}
 
