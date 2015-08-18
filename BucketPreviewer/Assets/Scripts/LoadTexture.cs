@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -10,6 +11,13 @@ public class LoadTexture : MonoBehaviour {
 
 	public Texture2D texture;
 	public MeshRenderer renderer;
+	public float frameRate;
+	float frameDuration {
+		get {
+			return 1/frameRate;
+		}
+	}
+
 
 	public void Load(string[] paths)
 	{
@@ -17,10 +25,10 @@ public class LoadTexture : MonoBehaviour {
 
 		if (paths.Length > 1)
 		{
-			if (IsImage(paths[0]))
+			if (IsImage(paths[0]) && IsSequence(paths))
 			{
 				Debug.Log("Image sequence");
-				StartCoroutine(SetSequence(paths));
+				StartCoroutine(LoadSequence(paths));
 			}
 		}
 		else
@@ -41,7 +49,7 @@ public class LoadTexture : MonoBehaviour {
 				{
 
 					Debug.Log("Is Image");
-					StartCoroutine(SetTexture(path));
+					StartCoroutine(FetchTexture(path));
 				}
 				//if single texture simply load as texture
 			}
@@ -90,24 +98,47 @@ public class LoadTexture : MonoBehaviour {
 		return false;
 	}
 
-	IEnumerator SetTexture(string path)
+	IEnumerator FetchTexture(string path)
 	{
 		WWW www = new WWW("file:///"+path);
 		yield return www;
-		renderer.material.mainTexture = www.texture;
-		renderer.material.SetTexture("_EmissionMap",www.texture);
+		SetTexture(www.texture);
 	}
 
-	IEnumerator SetSequence(string[] paths)
+	void SetTexture(Texture t)
 	{
-		StopCoroutine("SetSequence");
+		renderer.material.mainTexture = t;
+		renderer.material.SetTexture("_EmissionMap",t);
+	}
+
+	IEnumerator LoadSequence(string[] paths)
+	{
+		StopCoroutine("PlaySequence");
+		paths.OrderBy(x => x).ToArray();
+		List<Texture> sequence = new List<Texture>();
 		foreach(var path in paths)
 		{
-			StartCoroutine(SetTexture(path));
+			WWW www = new WWW("file:///"+path);
+			yield return www;
+			sequence.Add(www.texture);
+			// Debug.Log(path + " loaded into memory");
+			// StartCoroutine(LoadTexture(path));
 			// Debug.Log("set " + path);
-			yield return new WaitForSeconds(0.04f);
+			// yield return new WaitForSeconds(frameDuration);
 		}
-		StartCoroutine(SetSequence(paths));
+		StartCoroutine(PlaySequence(sequence));
+	}
+
+	IEnumerator PlaySequence(List<Texture> s)
+	{
+		StopCoroutine("PlaySequence");
+		Debug.Log("playing sequence");
+		foreach(var t in s)
+		{
+			SetTexture(t);
+			yield return new WaitForSeconds(frameDuration);
+		}
+		StartCoroutine(PlaySequence(s));
 	}
 
 	IEnumerator SetMovieTexture(string path)
@@ -121,6 +152,12 @@ public class LoadTexture : MonoBehaviour {
 		renderer.material.SetTexture("_EmissionMap",movieTexture);
 
 		movieTexture.Play();
+	}
+
+	class ImageSequence
+	{
+		public Texture texture;
+
 	}
 
 }
