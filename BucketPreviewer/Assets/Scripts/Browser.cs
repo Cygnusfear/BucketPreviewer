@@ -37,15 +37,15 @@ public class Browser : MonoBehaviour {
 		fileBrowser.Settings.SettingsSaveFileName = "SfbOverlayExampleSettings";
 
 		#if UNITY_STANDALONE_OSX
-			defaultPath = "/Users/";
+			defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
 		#endif
 
 		#if UNITY_EDITOR_OSX
-			defaultPath = "/Users/";
+			defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
 		#endif
 
 		#if UNITY_STANDALONE_WIN
-			defaultPath = "/";
+			defaultPath = Environment.SpecialFolder.Personal;
 		#endif
 		// Open the File Browser
 		Open();
@@ -57,10 +57,26 @@ public class Browser : MonoBehaviour {
 			Application.Quit();
 		}
 		if (Input.GetKeyDown(KeyCode.O)) {
-			Open();
+			Application.LoadLevel(0);
 		}
 		if (Input.GetKeyDown(KeyCode.H)) {
 			rails.enabled = !rails.enabled;
+		}
+		if (Input.GetKeyDown(KeyCode.E)) {
+			controller.transform.localScale = controller.transform.localScale + new Vector3(0,0.1f,0);
+		}
+		if (Input.GetKeyDown(KeyCode.Q)) {
+			controller.transform.localScale = controller.transform.localScale - new Vector3(0,0.1f,0);
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha1)) {
+			Vector3 pos = controller.transform.position;
+			pos.y = 4.45f;
+			controller.transform.position = pos;
+		}
+		if (Input.GetKeyDown(KeyCode.Alpha2)) {
+			Vector3 pos = controller.transform.position;
+			pos.y = 7.849999f;
+			controller.transform.position = pos;
 		}
 	}
 

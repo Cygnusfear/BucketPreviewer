@@ -13,6 +13,8 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	public LoaderText text;
+
 	public bool playing;
 
 	public void Play()
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour {
 
 	IEnumerator PlaySequence()
 	{
-		Debug.Log("Playing sequence ("+queue.Count+" frames @"+ frameRate +"fps)");
+		text.Set("Playing sequence ("+queue.Count+" frames @"+ frameRate +"fps)\nO open a new file\nH show/hide audience area\nQ & E change height of avatar\n1 & 2 select floor");
 		foreach(var t in queue)
 		{
 			renderer.material.mainTexture = t;

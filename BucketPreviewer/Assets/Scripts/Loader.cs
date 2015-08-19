@@ -13,17 +13,26 @@ public class Loader : MonoBehaviour {
 	List<WWW> finished = new List<WWW>();
 	List<Texture> sequence = new List<Texture>();
 
+	public LoaderText text;
+
 	public void Load(string[] paths)
 	{
+		text.Set("Loading Sequence " + paths[0]);
 		//check all paths
-		// if (paths.Length > 1)
-		// {
+		if (paths.Length == 1)
+		{
 			if (IsImage(paths[0]))
 			{
 				Debug.Log("Image sequence");
-				LoadSequence(paths);
+				DiscoverSequence(paths);
 			}
-		// }
+			else
+				text.Set("Not an image or sequence");
+		}
+		else
+		{
+			LoadSequence(paths);
+		}
 		// else
 		// {
 		// 	foreach(var path in paths)
@@ -92,7 +101,7 @@ public class Loader : MonoBehaviour {
 		return false;
 	}
 
-	void LoadSequence(string[] paths)
+	void DiscoverSequence(string[] paths)
 	{
 		//find filename
 		Debug.Log(Path.GetFileNameWithoutExtension(paths[0]));
@@ -107,6 +116,7 @@ public class Loader : MonoBehaviour {
 		string fileClean = rgx.Replace(filename, "");
 		Debug.Log(fileClean);
 		string numbers = filename.Replace(fileClean,"");
+		Debug.Log(numbers);
 		int index = Int32.Parse(numbers);
 		string format = "";
 		for (int i = 0; i < numbers.Length; i++)
@@ -114,14 +124,16 @@ public class Loader : MonoBehaviour {
 			format += "0";
 		}
 		// Debug.Log(index.ToString(format));
-
-		StartCoroutine(LoadPath(directory+"/"+fileClean+index.ToString(format)+extension));
+		string start = fileClean+index.ToString(format)+extension;
+		string originalFile = fileClean+index.ToString(format)+extension;
+		StartCoroutine(LoadPath(start));
 		for(int i = index; i > 0; i--)
 		{
 			string path = directory+"/"+fileClean+i.ToString(format)+extension;
 			// Debug.Log(path);
 			if (File.Exists(path))
 			{
+					start = fileClean+i.ToString(format)+extension;
 					StartCoroutine(LoadPath(path));
 			}
 			else
@@ -129,12 +141,14 @@ public class Loader : MonoBehaviour {
 				break;
 			}
 		}
+		string end = originalFile;
 		for(int i = index; i < 999999; i++)
 		{
 			string path = directory+"/"+fileClean+i.ToString(format)+extension;
 			// Debug.Log(path);
 			if (File.Exists(path))
 			{
+				end = fileClean+i.ToString(format)+extension;
 					StartCoroutine(LoadPath(path));
 			}
 			else
@@ -142,31 +156,33 @@ public class Loader : MonoBehaviour {
 				break;
 			}
 		}
+		text.Set("Loading: "+start+" until "+end);
 
 	}
 
-	// void LoadSequence(string[] paths)
-	// {
-	// 	paths.OrderBy(x => x).ToArray();
-	// 	// Start threads to load images
-	// 	foreach(var p in paths)
-	// 	{
-	// 		StartCoroutine(LoadPath(p));
-	// 	}
-	// 	// List<Texture> sequence = new List<Texture>();
-	// 	//
-	// 	// foreach(var path in paths)
-	// 	// {
-	// 	// 	WWW www = new WWW("file:///"+path);
-	// 	// 	yield return www;
-	// 	// 	www.texture.name = path;
-	// 	// 	sequence.Add(www.texture);
-	// 	// 	Debug.Log(www.texture.name + " " + path + " loaded into memory");
-	// 	// 	// StartCoroutine(LoadTexture(path));
-	// 	// 	// Debug.Log("set " + path);
-	// 	// 	// yield return new WaitForSeconds(frameDuration);
-	// 	// }
-	// }
+	void LoadSequence(string[] paths)
+	{
+		paths.OrderBy(x => x).ToArray();
+		// Start threads to load images
+		foreach(var p in paths)
+		{
+			StartCoroutine(LoadPath(p));
+		}
+		text.Set("Loading selected images");
+		// List<Texture> sequence = new List<Texture>();
+		//
+		// foreach(var path in paths)
+		// {
+		// 	WWW www = new WWW("file:///"+path);
+		// 	yield return www;
+		// 	www.texture.name = path;
+		// 	sequence.Add(www.texture);
+		// 	Debug.Log(www.texture.name + " " + path + " loaded into memory");
+		// 	// StartCoroutine(LoadTexture(path));
+		// 	// Debug.Log("set " + path);
+		// 	// yield return new WaitForSeconds(frameDuration);
+		// }
+	}
 
 	IEnumerator LoadPath(string path)
 	{
@@ -193,6 +209,7 @@ public class Loader : MonoBehaviour {
 			player.Load(sequence.ToList());
 			sequence.Clear();
 			player.Play();
+			text.Set("");
 		}
 	}
 
